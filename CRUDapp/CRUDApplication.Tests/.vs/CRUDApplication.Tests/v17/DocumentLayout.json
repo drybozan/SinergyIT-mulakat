@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE85D3-C344-48D7-96BB-255FF363E76A}|CRUDApplication.Tests.csproj|c:\\users\\derya\\onedrive\\masa\u00FCst\u00FC\\sinergyit\\crudapplication.tests\\crudapplication.tests\\managers\\ordermanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE85D3-C344-48D7-96BB-255FF363E76A}|CRUDApplication.Tests.csproj|solutionrelative:crudapplication.tests\\managers\\ordermanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC7FE56-3A93-456F-B837-5A3CD4076832}|..\\CRUDApplication\\CRUDApplication.csproj|c:\\users\\derya\\onedrive\\masa\u00FCst\u00FC\\sinergyit\\crudapplication\\business\\concretes\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC7FE56-3A93-456F-B837-5A3CD4076832}|..\\CRUDApplication\\CRUDApplication.csproj|c:\\users\\derya\\onedrive\\masa\u00FCst\u00FC\\sinergyit\\crudapplication\\core\\result\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC7FE56-3A93-456F-B837-5A3CD4076832}|..\\CRUDApplication\\CRUDApplication.csproj|c:\\users\\derya\\onedrive\\masa\u00FCst\u00FC\\sinergyit\\crudapplication\\core\\result\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE85D3-C344-48D7-96BB-255FF363E76A}|CRUDApplication.Tests.csproj|c:\\users\\derya\\onedrive\\masa\u00FCst\u00FC\\sinergyit\\crudapplication.tests\\crudapplication.tests\\mocks\\mockmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE85D3-C344-48D7-96BB-255FF363E76A}|CRUDApplication.Tests.csproj|solutionrelative:crudapplication.tests\\mocks\\mockmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC7FE56-3A93-456F-B837-5A3CD4076832}|..\\CRUDApplication\\CRUDApplication.csproj|c:\\users\\derya\\onedrive\\masa\u00FCst\u00FC\\sinergyit\\crudapplication\\business\\concretes\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE85D3-C344-48D7-96BB-255FF363E76A}|CRUDApplication.Tests.csproj|c:\\users\\derya\\onedrive\\masa\u00FCst\u00FC\\sinergyit\\crudapplication.tests\\crudapplication.tests\\mocks\\mockcustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE85D3-C344-48D7-96BB-255FF363E76A}|CRUDApplication.Tests.csproj|solutionrelative:crudapplication.tests\\mocks\\mockcustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EE85D3-C344-48D7-96BB-255FF363E76A}|CRUDApplication.Tests.csproj|c:\\users\\derya\\onedrive\\masa\u00FCst\u00FC\\sinergyit\\crudapplication.tests\\crudapplication.tests\\managers\\customermanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EE85D3-C344-48D7-96BB-255FF363E76A}|CRUDApplication.Tests.csproj|solutionrelative:crudapplication.tests\\managers\\customermanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IResult.cs",
+              "DocumentMoniker": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication\\Core\\Result\\IResult.cs",
+              "RelativeDocumentMoniker": "..\\CRUDApplication\\Core\\Result\\IResult.cs",
+              "ToolTip": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication\\Core\\Result\\IResult.cs",
+              "RelativeToolTip": "..\\CRUDApplication\\Core\\Result\\IResult.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA2wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:41:52.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication\\Core\\Result\\Result.cs",
+              "RelativeDocumentMoniker": "..\\CRUDApplication\\Core\\Result\\Result.cs",
+              "ToolTip": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication\\Core\\Result\\Result.cs",
+              "RelativeToolTip": "..\\CRUDApplication\\Core\\Result\\Result.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:41:26.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication\\Business\\Concretes\\OrderManager.cs",
+              "RelativeDocumentMoniker": "..\\CRUDApplication\\Business\\Concretes\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication\\Business\\Concretes\\OrderManager.cs",
+              "RelativeToolTip": "..\\CRUDApplication\\Business\\Concretes\\OrderManager.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAcwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:19:58.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderManagerTest.cs",
+              "DocumentMoniker": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\CRUDApplication.Tests\\Managers\\OrderManagerTest.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.Tests\\Managers\\OrderManagerTest.cs",
+              "ToolTip": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\CRUDApplication.Tests\\Managers\\OrderManagerTest.cs",
+              "RelativeToolTip": "CRUDApplication.Tests\\Managers\\OrderManagerTest.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAIAwwNYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:19:37.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerManager.cs",
+              "DocumentMoniker": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication\\Business\\Concretes\\CustomerManager.cs",
+              "RelativeDocumentMoniker": "..\\CRUDApplication\\Business\\Concretes\\CustomerManager.cs",
+              "ToolTip": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication\\Business\\Concretes\\CustomerManager.cs",
+              "RelativeToolTip": "..\\CRUDApplication\\Business\\Concretes\\CustomerManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:13:10.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MockMapper.cs",
+              "DocumentMoniker": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\CRUDApplication.Tests\\Mocks\\MockMapper.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.Tests\\Mocks\\MockMapper.cs",
+              "ToolTip": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\CRUDApplication.Tests\\Mocks\\MockMapper.cs",
+              "RelativeToolTip": "CRUDApplication.Tests\\Mocks\\MockMapper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T15:53:41.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MockCustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\CRUDApplication.Tests\\Mocks\\MockCustomerRepository.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.Tests\\Mocks\\MockCustomerRepository.cs",
+              "ToolTip": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\CRUDApplication.Tests\\Mocks\\MockCustomerRepository.cs",
+              "RelativeToolTip": "CRUDApplication.Tests\\Mocks\\MockCustomerRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T15:52:47.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerManagerTest.cs",
+              "DocumentMoniker": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\CRUDApplication.Tests\\Managers\\CustomerManagerTest.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.Tests\\Managers\\CustomerManagerTest.cs",
+              "ToolTip": "C:\\Users\\derya\\OneDrive\\Masa\u00FCst\u00FC\\sinergyIT\\CRUDApplication.Tests\\CRUDApplication.Tests\\Managers\\CustomerManagerTest.cs",
+              "RelativeToolTip": "CRUDApplication.Tests\\Managers\\CustomerManagerTest.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADgv1gAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T15:34:32.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

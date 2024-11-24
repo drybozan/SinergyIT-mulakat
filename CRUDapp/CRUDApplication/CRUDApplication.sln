@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDApplication", "CRUDApplication.csproj", "{08A1B363-D357-4D24-906E-3408C3F62807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDApplication.Tests", "..\CRUDApplication.Tests\CRUDApplication.Tests.csproj", "{74C4E12E-EF54-4F28-824E-BB4762582EBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A1B363-D357-4D24-906E-3408C3F62807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A1B363-D357-4D24-906E-3408C3F62807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A1B363-D357-4D24-906E-3408C3F62807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A1B363-D357-4D24-906E-3408C3F62807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C4E12E-EF54-4F28-824E-BB4762582EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C4E12E-EF54-4F28-824E-BB4762582EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C4E12E-EF54-4F28-824E-BB4762582EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C4E12E-EF54-4F28-824E-BB4762582EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
