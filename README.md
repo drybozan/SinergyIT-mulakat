@@ -1,2 +1,2 @@
 # SinergyIT-mulakat
-İki adet uygulama mevcut. Biri sadece unit test yazmak ve test etmek için diğeri ise hem api yazmak hem de apileri test etmek için
+İki adet uygulama mevcut. UnitTestApp uygulaması sadece unit testi anlamak, yazmak ve test etmek için hazırlanmıştır. CRUDApp uygulaması ise  katmanlı mimariye dayanarak api yazmak ve apilerin iş sınıfları test etmek içinhazırlanmıştır.
