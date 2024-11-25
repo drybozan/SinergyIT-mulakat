@@ -52,5 +52,22 @@ Soru:
  - Bu süreci yönetmek için bir Saga pattern tasarlayın ve basit bir durum makinesi (state machine) diyagramı çizin. Sipariş Verildi aşamasından Sipariş Tamamlandı aşamasına kadar olan her bir durumu çizin ve her bir başarısızlık durumunda geri alma adımlarını gösterin.
  - Her bir durumda, ilgili hizmetin başarılı ya da başarısız olması durumunda nasıl bir geçiş yapılacağını açıklayın.
 
+ **Aşağıda Saga pattern'ine uygun bir durum makinesi (state machine) diyagramı oluşturulmuştur. Adım adım açıklama şu şekildedir:**
+
+ - Order Placed (Sipariş Verildi): Süreç "Sipariş Verildi" adımıyla başlar.
+ - Check Stock (Stok Kontrolü): Eğer stok mevcutsa "Reserve Stock" (Stok Rezerve Et) adımına geçilir.
+ - Stok mevcut değilse "Cancel Stock Reservation" (Stok Rezervasyonunu İptal Et) ile süreç sonlanır.
+ - Reserve Stock (Stok Rezervasyonu): Rezervasyon başarılıysa "Payment Processing" (Ödeme İşlemi) adımına geçilir.Başarısız olursa, "Cancel Stock Reservation" (Stok Rezervasyonunu İptal Et) adımı devreye girer.
+ - Payment Processing (Ödeme İşleme): Ödeme başarılıysa "Shipment Preparation" (Kargo Hazırlığı) adımına geçilir.Başarısız olursa, "Refund Payment" (Ödeme İadesi) yapılır.
+ - Shipment Preparation (Kargo Hazırlığı): Kargo hazırlığı başarılıysa "Delivery Scheduled" (Teslimat Planlandı) adımına geçilir. Başarısız olursa, "Cancel Shipment" (Kargo İptali) yapılır.
+ - Delivery Scheduled (Teslimat Planlandı): Teslimat başarılı olursa "Order Completed" (Sipariş Tamamlandı) adımına geçilir.
+
+Hata Durumunda Geri Alma:
+
+ - Stok rezervasyonunda Cancel Stock Reservation adımı devreye girer. Stok rezervasyonu yapılmaz  ve sipariş iptal edilir. 
+ - Ödemede bir hata varsa Refund Payment devreye girer. Stok rezervasyonunu geri alır ve ödemeyi geri iade eder  ve sipariş iptal edilir.
+ - Kargo hazırlığı başarısız olursa "Cancel Shipment" adımı uygulanır.Bu adımda ise rezervasyon geri alınır ve ödeme iade edilir ve sipariş iptal edilir.
+
+
 
 
