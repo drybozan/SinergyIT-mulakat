@@ -3,34 +3,13 @@
 
 # Saga Pattern - Mikroservis Mimarisi
 
-## Giriş
-Mikroservis mimarisinde birden fazla veritabanı ile çalışma durumu söz konusudur. Mikroservisler birbirinden bağımsız olarak çalıştığı için, bir işlem birden fazla servisi kapsıyorsa klasik monolitik mimarilerdeki gibi bir "ACID transaction" gerçekleştirmek zordur. Servisler arasında veri tutarlılığı, hata yönetimini ve işlem koordinasyonu sağlamak oldukça zordur. Bu tür problemleri çözmek için **Saga Pattern** kullanılır.
-
+## 1. Saga pattern mikroservis mimarisinde hangi sorunları çözmeye çalışır?
+Mikroservis mimarisinde birden fazla veritabanı ile çalışma durumu söz konusudur. Mikroservisler birbirinden bağımsız olarak çalıştığı için, bir işlem birden fazla servisi kapsıyorsa klasik monolitik mimarilerdeki gibi bir "ACID transaction" gerçekleştirmek zordur. Servisler arasında veri tutarlılığı, hata yönetimini ve işlem koordinasyonu sağlamak oldukça zordur. Servisler arası tutarlılığı, veri akışını, hata yönetimini takip etmek ve işlemleri koordine etmek için**Saga Pattern** kullanılır.
 ---
 
-## Saga Pattern Nedir?
-Saga Pattern, mikroservis mimarisinde servisler arası tutarlılığı, veri akışını, hata yönetimini takip etmek ve işlemleri koordine etmek için kullanılan bir tasarım desenidir.
+## 2.Saga patterndeki choreography ve orchestration yaklaşımları arasındaki temel fark nedir?  
 
----
-
-## Saga Pattern Yaklaşımları
-
-### Choreography ve Orchestration
-Saga Pattern, iki ana yaklaşım kullanır: **Choreography** ve **Orchestration**.
-
-### Choreography
-- **Choreography** yaklaşımında herhangi bir merkezi yönetim yoktur.
-- Her servis bir olay (event) yayınlayarak diğer mikroservisleri tetikler.
-- **Temel Özellikleri:**
-  - Servisler birbirinden doğrudan bağımsızdır.
-  - İşlemler genellikle asenkron olarak yürütülür.
-
-### Orchestration
-- **Orchestration** yaklaşımında merkezi bir Orchestrator (koordinatör) bulunur.
-- Orchestrator, hangi servisin ne zaman çalışacağını belirler ve sırasıyla çağrılar yapar.
-- **Temel Özellikleri:**
-  - Merkezi bir kontrol mekanizması vardır.
-  - İşlemler genellikle senkron bir şekilde yürütülür.
+ Choreography yaklaşımında herhangi bir merkezi yönetimi yokken Orchestration  yaklaşımında bu durum tam tersidir. Choreography’de her servis event yayınlarak diğer mikroservisleri tetiklerken Orchestration yaklaşımında bir  Orchestrator (koordinatör) tüm işlemleri kontrol eder.Orchestrator, hangi servisin ne zaman çalışacağını belirler ve sırasıyla çağrılar yapar. Orchestration yaklaşımında merkezi yönetim olduğu için daha dağıtık sistemlerde kullanılması uygundur. Choreography’de servisler doğrudan birbiriyle iletişim kurmaz, olaylar asenkron olarak işlenir.Orchestration yaklaşımda ise işlemler genellikle senkron şekilde yürütülür. Distributed transaction (birden fazla farklı veritabanının bir bütün olarak çalıştığı durum)’a katılacak olan microservice sayısı kriterlerden birisidir. Eğer 4 ve daha az servis kullanılacaksa Choreography yaklaşımı kullanmak daha uygundur. Sistem çok daha fazla dağıtık, servis sayısı fazla ise Orchestration  yaklaşımını kullanmak, takibini yapmak daha kolay olur. Sisteme sonradan eklenecek servislerin de entegresi kolay olur. 
 
 ---
 
@@ -62,11 +41,5 @@ Saga Pattern, iki ana yaklaşım kullanır: **Choreography** ve **Orchestration*
 
 ---
 
-## Kullanım Kriterleri
 
-- **Choreography:**  
-  Eğer 4 ve daha az servis kullanılacaksa ve sistem daha az dağıtık ise Choreography yaklaşımı tercih edilmelidir.
-  
-- **Orchestration:**  
-  Sistem çok daha fazla dağıtık ve servis sayısı fazla ise Orchestration yaklaşımı kullanılması daha uygundur. Ayrıca, sisteme sonradan eklenecek servislerin entegrasyonu daha kolaydır.
 
