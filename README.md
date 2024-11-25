@@ -70,9 +70,26 @@ Hata Durumunda Geri Alma:
    
 ![image](https://github.com/user-attachments/assets/03d2ae82-0d4d-4c0d-ae4f-a063e0cca8c0)![image](https://github.com/user-attachments/assets/ab3d12a6-5cd1-46e3-b8ca-7f910792e90e)
 
+---
+# Unit Test
+   Unit Test, Birim Test demektir. Yani uygulamadaki en küçük işlem yapan birimlerin/metotların test edilmesidir. Burada amaç, bir uygulamadaki metotların önceden belirlenmiş kurallar çerçevesinde davranışlarının test edilmesidir. Böylece, bireysel veya ekipsel çalışmalarda inşa edilen kodların belirlenmiş standartlar çerçevesinde olması sağlanmış olacak ve yapılacak değerlendirmelerden geçemeyen birimler standartlara uymadıklarından dolayı hızlıca kontrol edilip onarılabilecektirler. 
+   Unit test yazmak Arrange, Act ve Assert olmak üzere üç aşamadan oluşur:
+**Arrange**: Test edilecek metodun kullanacağı kaynakların hazırlandığı bölümdür. Değişken tanımlama, nesne oluşturma vs. gerçekleştirilir.
+**Act** :Arrange aşamasında hazırlanan değişkenler, nesneler eşliğinde test edilecek olan metodun çalıştırıldığı bölümdür.
+**Assert** : Act aşamasında yapılan testin doğrulama evresidir. Tek bir Act’te birden fazla sonuç gerçekleşebilir. 
 
-   
+### Popüler Unit Test framework’leri:
 
+***1. xUnit***: Testleri yazmak ve çalıştırmak için kullanılır.
+ - Assert sınıfı;
+  beklenen ve gerçek değerleri doğrulamak için kullanılır.
+ - Fact;
+  Sabit bir test senaryosu için kullanılır.
+  Parametre almaz ve genellikle statik testler için tercih edilir.
+  - Theory;
+  Farklı parametre kombinasyonlarıyla test yapmak için kullanılır.
+  Parametreleri belirlemek için InlineData, MemberData veya ClassData kullanılır.
 
+***2. Moq***:  nesneler oluşturarak bağımlılıkları izole etmek ve sadece test edilen kodu doğrulamak için kullanılır.Moq, arayüzlerin veya sınıfların sahte nesnelerini kolayca oluşturmanızı sağlar. Test edilmek istenilen sınıfların gerçek nesnelerini kullanmak yerine onları simüle etmemizi sağlayan ve böylece test süreçlerindeki maliyetleri minimize etmemizi hedefleyen bir framework’tür.
 
 
