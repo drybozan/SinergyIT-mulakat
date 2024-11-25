@@ -27,7 +27,7 @@ Mikroservis mimarisinde birden fazla veritabanı ile çalışma durumu söz konu
 
 ---
 
-## .Orchestration Saga pattern avantajları ve dezavantajları nelerdir?
+## 3.Orchestration Saga pattern avantajları ve dezavantajları nelerdir?
 
 ### Avantajları
 - Karmaşık sistemleri adım adım takip etmek ve yönetmek kolaydır.
@@ -42,6 +42,15 @@ Mikroservis mimarisinde birden fazla veritabanı ile çalışma durumu söz konu
 - Mikroservisler Orchestrator’a bağımlı hale gelir. Bu durum, mikroservislerin bağımsız çalışma ilkesine ters düşer.
 
 ---
+## 4.Orchestration Saga pattern avantajları ve dezavantajları nelerdir?
+Bir e-ticaret uygulaması tasarladığınızı düşünelim. Bu uygulamada müşteriler sipariş verdiklerinde, birden fazla hizmetin birlikte çalışması gerekiyor. Müşteri bir sipariş verdiğinde şu adımlar gerçekleşmeli:
+1.Stokta mevcut ürünleri kontrol eder ve onları rezerve eder.
+2.Müşterinin yeterli bakiye olup olmadığı kontrol edilir ve ödeme işlemi gerçekleştirilir. 
+3.Kargo ödeme onaylandıktan sonra gönderi için hazırlık yapar ve teslimat planlanır.
+Burada dikkat etmeniz gereken bir nokta var: Eğer bu adımlardan herhangi biri başarısız olursa (örneğin, ödeme başarısız olursa veya stokta ürün yoksa), sistem önceki adımları geri alarak verilerin tutarlılığını sağlamalıdır. Yani, ödeme başarısız olursa stoktaki rezerv kaldırılmalı, kargo işlemi başarısız olursa ödeme iade edilmelidir..
+Soru:
+ - Bu süreci yönetmek için bir Saga pattern tasarlayın ve basit bir durum makinesi (state machine) diyagramı çizin. Sipariş Verildi aşamasından Sipariş Tamamlandı aşamasına kadar olan her bir durumu çizin ve her bir başarısızlık durumunda geri alma adımlarını gösterin.
+ - Her bir durumda, ilgili hizmetin başarılı ya da başarısız olması durumunda nasıl bir geçiş yapılacağını açıklayın.
 
 
 
