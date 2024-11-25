@@ -80,16 +80,31 @@ Hata Durumunda Geri Alma:
 
 ### Popüler Unit Test framework’leri:
 
-***1. xUnit***: Testleri yazmak ve çalıştırmak için kullanılır.
- - Assert sınıfı;
-  beklenen ve gerçek değerleri doğrulamak için kullanılır.
- - Fact;
+**1. xUnit**: Testleri yazmak ve çalıştırmak için kullanılır.
+ - ***Assert sınıfı;***
+   Birim testlerinde beklenen ve gerçek sonuçları karşılaştırmak için kullanılan temel bir test sınıfıdır.
+    *Assert.True(condition), koşulun true olduğunu doğrular.
+    *Assert.False(condition), koşulun false olduğunu doğrular.
+    *Assert.Equal(expected, actual) ,beklenen ve gerçek değerlerin eşit olduğunu doğrular.
+    *Assert.NotEqual(expected, actual), beklenen ve gerçek değerlerin farklı olduğunu doğrular.
+    *Assert.Null(object), nesnenin null olduğunu doğrular.
+    *Assert.NotNull(object), nesnenin null olmadığını doğrular.
+    *Assert.Same(expected, actual), iki nesnenin aynı referansa sahip olduğunu doğrular.
+    *Assert.NotSame(expected, actual),iki nesnenin farklı referansa sahip olduğunu doğrular.
+    *Assert.Throws<TException>(Action), belirtilen türde bir istisnanın atılmasını bekler.
+    *Assert.ThrowsAny<TException>(Action), belirtilen veya türetilmiş herhangi bir istisnanın atılmasını bekler.
+    *Assert.Empty(collection), koleksiyonun boş olduğunu doğrular.
+    *Assert.NotEmpty(collection), koleksiyonun boş olmadığını doğrular.
+    *Assert.Contains(expected, collection), koleksiyonun belirtilen öğeyi içerdiğini doğrular.
+    *Assert.DoesNotContain(expected, collection), koleksiyonun belirtilen öğeyi içermediğini doğrular.
+    *Assert.All(collection, action) , koleksiyondaki her bir öğe için belirli bir durumu doğrular
+ - ***Fact;***
   Sabit bir test senaryosu için kullanılır.
   Parametre almaz ve genellikle statik testler için tercih edilir.
-  - Theory;
+  - ***Theory;***
   Farklı parametre kombinasyonlarıyla test yapmak için kullanılır.
   Parametreleri belirlemek için InlineData, MemberData veya ClassData kullanılır.
 
-***2. Moq***:  nesneler oluşturarak bağımlılıkları izole etmek ve sadece test edilen kodu doğrulamak için kullanılır.Moq, arayüzlerin veya sınıfların sahte nesnelerini kolayca oluşturmanızı sağlar. Test edilmek istenilen sınıfların gerçek nesnelerini kullanmak yerine onları simüle etmemizi sağlayan ve böylece test süreçlerindeki maliyetleri minimize etmemizi hedefleyen bir framework’tür.
+**2. Moq**:  nesneler oluşturarak bağımlılıkları izole etmek ve sadece test edilen kodu doğrulamak için kullanılır.Moq, arayüzlerin veya sınıfların sahte nesnelerini kolayca oluşturmanızı sağlar. Test edilmek istenilen sınıfların gerçek nesnelerini kullanmak yerine onları simüle etmemizi sağlayan ve böylece test süreçlerindeki maliyetleri minimize etmemizi hedefleyen bir framework’tür.Bir sınıfı mocklayabilmek için o sınıfın implemente ettiği interface kullanılmalıdır. 
 
 
