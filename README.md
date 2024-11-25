@@ -4,8 +4,9 @@
 # Saga Pattern - Mikroservis Mimarisi
 
 ## 1. Saga pattern mikroservis mimarisinde hangi sorunları çözmeye çalışır?
-Mikroservis mimarisinde birden fazla veritabanı ile çalışma durumu söz konusudur. Mikroservisler birbirinden bağımsız olarak çalıştığı için, bir işlem birden fazla servisi kapsıyorsa klasik monolitik mimarilerdeki gibi bir "ACID transaction" gerçekleştirmek zordur. Servisler arasında veri tutarlılığı, hata yönetimini ve işlem koordinasyonu sağlamak oldukça zordur. Servisler arası tutarlılığı, veri akışını, hata yönetimini takip etmek ve işlemleri koordine etmek için**Saga Pattern** kullanılır.
----
+
+Mikroservis mimarisinde birden fazla veritabanı ile çalışma durumu söz konusudur. Mikroservisler birbirinden bağımsız olarak çalıştığı için, bir işlem birden fazla servisi kapsıyorsa klasik monolitik mimarilerdeki gibi bir "ACID transaction" gerçekleştirmek zordur. Servisler arasında veri tutarlılığı, hata yönetimini ve işlem koordinasyonu sağlamak oldukça zordur. Servisler arası tutarlılığı, veri akışını, hata yönetimini takip etmek ve işlemleri koordine etmek için Saga Pattern mimarisi kullanılır.
+
 
 ## 2.Saga patterndeki choreography ve orchestration yaklaşımları arasındaki temel fark nedir?  
 
@@ -26,11 +27,12 @@ Mikroservis mimarisinde birden fazla veritabanı ile çalışma durumu söz konu
 
 ---
 
-## Orchestration Saga Pattern Avantaj ve Dezavantajları
+## .Orchestration Saga pattern avantajları ve dezavantajları nelerdir?
 
 ### Avantajları
 - Karmaşık sistemleri adım adım takip etmek ve yönetmek kolaydır.
-- Döngüsel bağımlılıklar yoktur. Her bir servisin diğer servisler hakkında bilgiye sahip olmasına gerek yoktur.
+- Tek taraflı olarak Saga katılımcılarına(servisler) bağlı olduğundan dolayı döngüsel bağımlılıklar söz konusu değildir.
+- Her bir servisin, diğer servisler hakkında bilgiye sahip olmasına gerek duyulmuyor.
 - Hatalar, Orchestrator tarafından yönetildiği için kolayca tespit edilebilir ve müdahale edilebilir.
 - İş akışı sırası değiştirildiğinde sadece Orchestrator üzerinde güncelleme yapılması yeterlidir. Diğer mikroservislerde değişiklik gerekmez.
 
