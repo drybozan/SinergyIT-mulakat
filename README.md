@@ -68,9 +68,7 @@ Hata Durumunda Geri Alma:
  - Ödemede bir hata varsa Refund Payment devreye girer. Stok rezervasyonunu geri alır ve ödemeyi geri iade eder  ve sipariş iptal edilir.
  - Kargo hazırlığı başarısız olursa "Cancel Shipment" adımı uygulanır.Bu adımda ise rezervasyon geri alınır ve ödeme iade edilir ve sipariş iptal edilir.
    
-![image](https://github.com/user-attachments/assets/871dbdcc-1ae8-4df1-98e2-d5ca1ce61208)![image](https://github.com/user-attachments/assets/b74ca7a8-7653-4903-9fc9-3a55691094b7)
-
-
+![image](https://github.com/user-attachments/assets/871dbdcc-1ae8-4df1-98e2-d5ca1ce61208)![image](https://github.com/user-attachments/assets/d5f75e3c-0411-4d1e-a93f-d9002580075c)
 
 
 ---
