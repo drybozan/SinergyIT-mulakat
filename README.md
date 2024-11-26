@@ -69,7 +69,8 @@ Hata Durumunda Geri Alma:
  - Kargo hazırlığı başarısız olursa "Cancel Shipment" adımı uygulanır.Bu adımda ise rezervasyon geri alınır ve ödeme iade edilir ve sipariş iptal edilir.
    
 ![image](https://github.com/user-attachments/assets/03d2ae82-0d4d-4c0d-ae4f-a063e0cca8c0)![image](https://github.com/user-attachments/assets/ab3d12a6-5cd1-46e3-b8ca-7f910792e90e)
-![image](https://github.com/user-attachments/assets/871dbdcc-1ae8-4df1-98e2-d5ca1ce61208)![image](https://github.com/user-attachments/assets/1a5044d9-fb7c-492a-b1fa-484f1b0bd11b)
+![image](https://github.com/user-attachments/assets/871dbdcc-1ae8-4df1-98e2-d5ca1ce61208)![image]![image](https://github.com/user-attachments/assets/b74ca7a8-7653-4903-9fc9-3a55691094b7)
+
 
 
 
