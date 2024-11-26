@@ -42,7 +42,7 @@ Mikroservis mimarisinde birden fazla veritabanı ile çalışma durumu söz konu
 - Mikroservisler Orchestrator’a bağımlı hale gelir. Bu durum, mikroservislerin bağımsız çalışma ilkesine ters düşer.
 
 ---
-## 4.Orchestration Saga pattern avantajları ve dezavantajları nelerdir?
+## 5.Uygulama
 Bir e-ticaret uygulaması tasarladığınızı düşünelim. Bu uygulamada müşteriler sipariş verdiklerinde, birden fazla hizmetin birlikte çalışması gerekiyor. Müşteri bir sipariş verdiğinde şu adımlar gerçekleşmeli:
 1.Stokta mevcut ürünleri kontrol eder ve onları rezerve eder.
 2.Müşterinin yeterli bakiye olup olmadığı kontrol edilir ve ödeme işlemi gerçekleştirilir. 
